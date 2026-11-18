@@ -1,0 +1,18 @@
+{
+  "model": "gbm",
+  "calibrated": true,
+  "n_rows": 5000,
+  "seed": 42,
+  "metrics": {
+    "roc_auc": 0.7954203957844705,
+    "pr_auc": 0.6221467785666716,
+    "brier": 0.1402137671123426,
+    "default_rate_observed": 0.2456,
+    "default_rate_predicted": 0.24112312835197441
+  },
+  "decision": {
+    "threshold": 0.14,
+    "profit": 228315.51320000002,
+    "approval_rate": 0.3896
+  }
+}
